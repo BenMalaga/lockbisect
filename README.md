@@ -9,6 +9,7 @@ red. **`git bisect` is useless** — it was *one commit*. lockbisect finds the e
 culprit package anyway.
 
 [![npm](https://img.shields.io/npm/v/lockbisect?color=cb3837&label=npm)](https://www.npmjs.com/package/lockbisect)
+[![CI](https://github.com/BenMalaga/lockbisect/actions/workflows/test.yml/badge.svg)](https://github.com/BenMalaga/lockbisect/actions)
 ![node](https://img.shields.io/badge/node-%E2%89%A518-339933)
 ![deps](https://img.shields.io/badge/dependencies-0-success)
 ![license](https://img.shields.io/badge/license-MIT-yellow)
