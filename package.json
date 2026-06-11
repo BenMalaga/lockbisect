@@ -1,0 +1,41 @@
+{
+  "name": "lockbisect",
+  "version": "0.1.0",
+  "description": "git bisect for the inside of a lockfile diff. When a batch dependency update breaks CI, isolate the exact culprit package@version in O(log n) installs.",
+  "type": "module",
+  "bin": {
+    "lockbisect": "bin/lockbisect.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "lockfile",
+    "package-lock",
+    "bisect",
+    "dependencies",
+    "dependabot",
+    "renovate",
+    "npm",
+    "debugging",
+    "ci",
+    "delta-debugging"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenMalaga/lockbisect.git"
+  },
+  "homepage": "https://github.com/BenMalaga/lockbisect#readme",
+  "bugs": {
+    "url": "https://github.com/BenMalaga/lockbisect/issues"
+  },
+  "author": "Ben Malaga",
+  "license": "MIT"
+}
